@@ -1,0 +1,26 @@
+{
+  "name": "eTime",
+  "version": "0.0.1",
+  "description": "Time based on the rythm of the universe.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "earth",
+    "time",
+    "sun",
+    "time",
+    "moon",
+    "time",
+    "time",
+    "based",
+    "on",
+    "sun",
+    "rises",
+    "and",
+    "sunsets"
+  ],
+  "author": "Kawal Singh",
+  "license": "ISC"
+}
