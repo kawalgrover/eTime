@@ -1,8 +1,9 @@
 'use strict';
 
-angular
-    .module('eTimeApp', ['ngRoute', 'restangular'])
-    .config(function ($routeProvider, RestangularProvider) {
+var app = angular
+    .module('eTimeApp', ['ngRoute', 'restangular']);
+
+app.config(function ($routeProvider, RestangularProvider) {
 
         RestangularProvider.setBaseUrl('http://localhost:3000');
 
@@ -18,4 +19,8 @@ angular
             .otherwise({
             redirectTo: '/'
             });
+    });
+
+app.factory('SunRise',function() {
+
     });
